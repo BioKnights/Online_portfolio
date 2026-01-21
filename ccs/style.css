@@ -143,6 +143,33 @@ body {
   margin-left: 20px;
 }
 
+.content a {
+  color: #00e5ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.content a:visited {
+  color: #00e5ff;
+}
+
+.content a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.content a img {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content a img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px rgba(0, 229, 255, 0.5);
+}
+
+
+
 /* =====================
    CARDS (CERTIFICATES)
 ===================== */
@@ -241,3 +268,17 @@ footer {
   line-height: 1.8;
 }
 
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #00e5ff, transparent);
+  margin: 30px 0;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card ul {
+  margin-left: 18px;
+}
